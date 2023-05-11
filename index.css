@@ -1,0 +1,72 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(193, 233, 227);
+}
+div{
+    margin: 50px auto;
+    padding: 20px 0 50px;
+    background-color: rgba(71, 133, 201, 0.775);
+    width: 30%;
+    border-radius: 15px;;
+}
+
+
+h1,.header{
+    display: block;
+    margin:20px auto;
+}
+h1{
+    color: rgb(16, 11, 11);
+    width: 440px;
+    background-color: rgba(165, 24, 125, 0.5);
+    border-radius: 10px;
+    padding: 10px 15px 15px;
+}
+
+.header{
+    color: rgb(16, 11, 11);
+    width: 350px;
+    background-color: rgba(250, 150, 100, 0.5);
+    border-radius: 15px;
+    padding: 20px 0 20px;
+}
+
+#save-el{
+    text-transform: uppercase;
+}
+
+button{
+    
+    border-width: thin 2.2px;
+    border-radius: 20px;
+    display: block;
+}
+
+
+#increment-btn{
+    padding: 16px 50px;
+    background-color: rgb(221, 66, 241);
+    color: black;
+    margin: 0 auto 15px;
+}
+
+ 
+#increment-btn:hover{
+    background-color: rgb(111, 40, 120);
+} 
+
+#save-btn{
+    padding: 15px 75px;
+    background-color: rgb(20, 190, 111);
+    color: black;
+    margin: auto;
+}
+
+
+
+#save-btn:hover{
+    background-color: rgb(2, 118, 39);
+} 
+
