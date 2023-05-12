@@ -21,8 +21,39 @@ The Save button records the current count in a separate div element with an id o
 
 ## Contributing
 
-Contributions are welcome. If you want to contribute to this project, please fork the repository and create a new branch with your changes. Once you have made your changes, submit a pull request, and we will review your changes.
+If you would like to contribute to this project, you can fork the repository and make your changes on your own fork. Once you have made your changes, you can create a pull request to merge your changes back into the main repository.
 
+1. Fork the repository by clicking the "Fork" button on the top right corner of the repository page.
+
+2. Clone your forked repository to your local machine using the following command:
+```bash 
+git clone https://github.com/YOUR-USERNAME/Counter-App.git
+```
+
+3. Create a new branch for your changes:
+```bash 
+git branch my-new-feature
+```
+
+4. Switch to the new branch:
+```bash 
+git checkout my-new-feature
+```
+
+5. Make changes to the code as desired.
+
+6. Commit the changes to your local repository:
+```bash 
+git add .
+git commit -m "Your commit message here"
+```
+
+7. Push the changes to your forked repository:
+```bash 
+git push origin my-new-feature
+```
+
+8. Finally, create a pull request to merge your changes back into the main repository.
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
