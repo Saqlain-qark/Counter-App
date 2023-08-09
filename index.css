@@ -1,75 +1,73 @@
-html, body {
+html,body{
     margin: 0;
     padding: 0;
     text-align: center;
     background-color: rgb(193, 233, 227);
-    height: 100%;
 }
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-div {
+div{
     margin: 50px auto;
     padding: 20px 0 50px;
     background-color: rgba(71, 133, 201, 0.775);
-    width: 80%; /* Adjusted width for better mobile layout */
-    border-radius: 15px;
-    box-sizing: border-box; /* Added to include padding in width calculation */
+    width: 30%;
+    border-radius: 15px;;
 }
 
-h1, .header {
+
+h1,.header{
     display: block;
-    margin: 20px auto;
+    margin:20px auto;
+}
+h1{
     color: rgb(16, 11, 11);
+    width: 30%;
     background-color: rgba(165, 24, 125, 0.5);
     border-radius: 10px;
     padding: 10px 15px 15px;
-    width: 80%; /* Adjusted width for better mobile layout */
-    box-sizing: border-box; /* Added to include padding in width calculation */
 }
 
-.header {
-    width: 100%; /* Adjusted width for better mobile layout */
+.header{
+    color: rgb(16, 11, 11);
+    width: 70%;
     background-color: rgba(250, 150, 100, 0.5);
     border-radius: 15px;
     padding: 20px 0 20px;
 }
 
-#save-el {
+#save-el{
     text-transform: uppercase;
 }
 
-button {
+button{
+    
     border-width: thin 2.2px;
     border-radius: 20px;
     display: block;
     margin: 0 auto;
+    
 }
 
-#increment-btn, #save-btn {
-    padding: 10px 25px; /* Adjusted padding for better mobile layout */
-    margin: 10px auto; /* Adjusted margin for better mobile layout */
-    font-size: medium; /* Adjusted font size for better mobile layout */
-}
 
-#increment-btn {
+#increment-btn{
+    padding: 16px 50px;
     background-color: rgb(221, 66, 241);
+    color: black;
+    margin: 0 auto 15px;
 }
 
-#increment-btn:hover {
+ 
+#increment-btn:hover{
     background-color: rgb(111, 40, 120);
-}
+} 
 
-#save-btn {
+#save-btn{
+    padding: 15px 75px;
     background-color: rgb(20, 190, 111);
+    color: black;
+    margin: auto;
 }
 
-#save-btn:hover {
+
+
+#save-btn:hover{
     background-color: rgb(2, 118, 39);
-}
+} 
