@@ -19,7 +19,7 @@ h1,.header{
 }
 h1{
     color: rgb(16, 11, 11);
-    width: 30%;
+    width: 27%;
     background-color: rgba(165, 24, 125, 0.5);
     border-radius: 10px;
     padding: 10px 15px 15px;
@@ -52,6 +52,7 @@ button{
     background-color: rgb(221, 66, 241);
     color: black;
     margin: 0 auto 15px;
+  
 }
 
  
@@ -64,6 +65,7 @@ button{
     background-color: rgb(20, 190, 111);
     color: black;
     margin: auto;
+    
 }
 
 
@@ -71,3 +73,21 @@ button{
 #save-btn:hover{
     background-color: rgb(2, 118, 39);
 } 
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+  div{
+    width:60%
+  }
+  
+  h1{
+    width:50%
+  }
+    #increment-btn, #save-btn {
+        width: 90%;
+      box-sizing: border-box;
+      padding: 15px;
+    }
+}
